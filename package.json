@@ -1,0 +1,13 @@
+{
+  "name": "taskflow-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static TaskFlow dashboard served locally for development",
+  "scripts": {
+    "start": "serve -l 8080 .",
+    "start:8000": "serve -l 8000 ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
